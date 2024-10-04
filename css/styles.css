@@ -1,30 +1,81 @@
+@font-face {
+    font-family: 'College';
+    src: url(/fonts/college-cdnfonts/COLLEGE.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins-Regular.ttf) format('ttf');
+}
+
+html {
+    font-size: 16px;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    width: 100vw;
-    height: 100vh;
+    background-color: #f8f8f8;
 }
 
-.teams-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+header {
+    height: 150px;
+    margin-bottom: 50px;
+    background-color: #485b73;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'College';
+    font-size: 4em;
+    color: #ffffff;
+    margin: 0;
+}
+
+header nav a {
+    font-family: 'Poppins';
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.5s ease;
+}
+
+header nav a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 .team-card {
+    width: 250px;
+    height: 350px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
-    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
 }
 
 .team-card img {
     width: 100px;
-    height: auto;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

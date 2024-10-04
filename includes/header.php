@@ -14,9 +14,10 @@
 <body>
 
     <header>
-        <h1>Welcome to the Football Teams Website</h1>
+        <h1>welcome to the football teams website</h1>
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
         </nav>
+
     </header>
