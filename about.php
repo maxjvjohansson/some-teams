@@ -28,7 +28,7 @@ require_once __DIR__ . "/includes/header.php";
 
     </div>
 
-    <img src="/images/portrait_max.jpeg" alt="Profile Picture Of Max" class="about-image">
+    <img src="images/portrait_max.jpeg" alt="Profile Picture Of Max" class="about-image">
 
 </div>
 

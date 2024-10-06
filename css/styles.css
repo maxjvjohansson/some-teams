@@ -23,7 +23,7 @@ body {
     font-family: 'Poppins';
     color: #ffffff;
     margin: 0;
-    background-image: url('/images/football_pitch.jpg');
+    background-image: url('../images/football_pitch.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
