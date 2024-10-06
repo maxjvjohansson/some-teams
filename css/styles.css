@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'College';
-    src: url(/fonts/college-cdnfonts/COLLEGE.ttf) format('ttf');
+    src: url(../fonts/college-cdnfonts/COLLEGE.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url(/fonts/Poppins-Regular.ttf) format('ttf');
+    src: url(../fonts/Poppins-Regular.ttf) format('truetype');
 }
 
 * {
